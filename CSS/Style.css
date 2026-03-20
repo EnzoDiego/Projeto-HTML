@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url("../FONTES/Unbounded-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../FONTES/Poppins-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0E1014;
+}
+
+/* LOGO */
+
+header img{
+    display: block;
+    margin: 60px  0 auto;
+    max-width: 180px;
+}
+
+/* TEXTOS */
+
+h1,p,a{
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+h1 span{
+    color: #9747FF;
+}
+
+p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 24px auto 0;
+    max-width: 792px;
+    padding: 0 20px;
+}
+
+/* BOTÃO */
+
+a{
+    font-family:"Poppins",sans-serif ;
+    font-size: 32px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover{
+    background-color: #8233e8;
+}
+
+/* IMAGEM */
+
+section img{
+    display: block;
+    width: 100%;
+    max-width: 792px;
+    margin: 40px auto;
+}
+
+/* ---------------------- */
+/* RESPONSIVIDADE */
+/* ---------------------- */
+
+/* TABLET */
+
+@media (max-width: 1024px){
+
+    h1{
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    a{
+        font-size: 26px;
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+}
+
+/* CELULAR */
+
+@media (max-width: 600px){
+
+    header img{
+        max-width: 140px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    a{
+        font-size: 18px;
+        width: 220px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+}
