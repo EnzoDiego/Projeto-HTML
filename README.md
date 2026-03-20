@@ -32,6 +32,7 @@ O objetivo do projeto é apresentar uma interface moderna para um sistema de mon
       └── Poppins-Regular.ttf
     </li>
   </ul>
+  <hr>
   <h2>📱 Responsividade</h2>
   <p>O site foi desenvolvido para funcionar em:</p>
   <ul>
